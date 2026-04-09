@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 import joblib
 
-df = pd.read_csv('data/spam_clean.csv')
+df = pd.read_csv('data/cleaned/spam_clean.csv')
 
 X = df['text'] 
 y = df['label']
